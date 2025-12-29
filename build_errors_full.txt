@@ -1,0 +1,148 @@
+﻿
+> portfolio@0.0.0 build
+> vite build
+
+npm : [33mYou are 
+using Node.js 
+20.18.3. Vite 
+requires Node.js 
+version 20.19+ or 
+22.12+. Please 
+upgrade your 
+Node.js 
+version.[39m
+At line:1 char:1
++ npm run build 
+2>&1 | Out-File 
+-Encoding utf8 build
+_errors_full.txt
++ ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo  
+            : NotS  
+  pecified: ([33   
+ mYou are us...s    
+ version.[39m:    
+String) [], Rem    
+oteException
+    + FullyQualifie 
+   dErrorId : Nati  
+  veCommandError
+ 
+[36mvite v7.3.0 [32mbuilding client environment for production...[36m[39m
+transforming...
+[32mΓ£ô[39m 43 modules transformed.
+[31mΓ£ù[39m Build 
+failed in 691ms
+[31merror during 
+build:
+[31msrc/components/
+Skills.jsx (3:53): "
+SiVisualstudiocode" 
+is not exported by "
+node_modules/react-i
+cons/si/index.mjs", 
+imported by "src/com
+ponents/Skills.jsx".
+[31m
+file: [36mC:/Users/
+Chandana B/Desktop/p
+ortfolio/src/compone
+nts/Skills.jsx:3:53
+[31m
+[33m
+1: import React 
+from 'react';
+2: import { FaJava, 
+FaHtml5, FaCss3, 
+FaJs, FaReact, 
+FaNodeJs, FaGitAlt, 
+FaGithub } from 
+'react-icons/fa';
+3: import { 
+SiCplusplus, 
+SiMysql, SiMongodb, 
+SiPostman, 
+SiVisualstudiocode, 
+SiExpress } from 
+'react-icons/si';
+                    
+                    
+                ^
+4: 
+5: const Skills = 
+() => {
+[31m
+    at 
+getRollupError (file
+:///C:/Users/Chandan
+a%20B/Desktop/portfo
+lio/node_modules/rol
+lup/dist/es/shared/p
+arseAst.js:401:41)
+    at error (file:/
+//C:/Users/Chandana%
+20B/Desktop/portfoli
+o/node_modules/rollu
+p/dist/es/shared/par
+seAst.js:397:42)
+    at Module.error 
+(file:///C:/Users/Ch
+andana%20B/Desktop/p
+ortfolio/node_module
+s/rollup/dist/es/sha
+red/node-entry.js:17
+022:16)
+    at Module.traceV
+ariable (file:///C:/
+Users/Chandana%20B/D
+esktop/portfolio/nod
+e_modules/rollup/dis
+t/es/shared/node-ent
+ry.js:17478:29)
+    at ModuleScope.f
+indVariable (file://
+/C:/Users/Chandana%2
+0B/Desktop/portfolio
+/node_modules/rollup
+/dist/es/shared/node
+-entry.js:15141:39)
+    at ReturnValueSc
+ope.findVariable (fi
+le:///C:/Users/Chand
+ana%20B/Desktop/port
+folio/node_modules/r
+ollup/dist/es/shared
+/node-entry.js:5688:
+38)
+    at FunctionBodyS
+cope.findVariable (f
+ile:///C:/Users/Chan
+dana%20B/Desktop/por
+tfolio/node_modules/
+rollup/dist/es/share
+d/node-entry.js:5688
+:38)
+    at 
+Identifier.bind (fil
+e:///C:/Users/Chanda
+na%20B/Desktop/portf
+olio/node_modules/ro
+llup/dist/es/shared/
+node-entry.js:5462:4
+0)
+    at 
+CallExpression.bind 
+(file:///C:/Users/Ch
+andana%20B/Desktop/p
+ortfolio/node_module
+s/rollup/dist/es/sha
+red/node-entry.js:28
+25:28)
+    at 
+CallExpression.bind 
+(file:///C:/Users/Ch
+andana%20B/Desktop/p
+ortfolio/node_module
+s/rollup/dist/es/sha
+red/node-entry.js:12
+172:15)[39m
