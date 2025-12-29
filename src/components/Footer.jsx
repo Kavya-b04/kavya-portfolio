@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="glass-panel footer-content">
-        <p>&copy; {new Date().getFullYear()} Kavya B. Crafted with creativity & code.</p>
+        <p>&copy; {new Date().getFullYear()} Kavya B. Crafted with creativity & code. (v1.2)</p>
       </div>
       <style>{`
         .footer {
